@@ -10,6 +10,7 @@ numpy = "*"
 setuptools = "*"
 tox = "*"
 epw = {ref = "master", git = "https://github.com/building-energy/epw.git"}
+epw = {ref = "master", git = "https://github.com/building-energy/epw.git"}
 
 [dev-packages]
 pytest = "*"

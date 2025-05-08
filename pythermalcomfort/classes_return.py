@@ -1,6 +1,9 @@
 import datetime as dt
-from dataclasses import dataclass, fields, is_dataclass
-from typing import Optional, Union
+from dataclasses import dataclass
+from dataclasses import fields
+from dataclasses import is_dataclass
+from typing import Optional
+from typing import Union
 
 import numpy as np
 import numpy.typing as npt
@@ -227,6 +230,8 @@ class HI(AutoStrMixin):
     ----------
     hi : float or list of floats
         Heat Index, [°C] or [°F] depending on the units.
+    stress_category : str or list of strs
+        Heat Index categorized in terms of heat stress.
     stress_category : str or list of strs
         Heat Index categorized in terms of heat stress.
     """
